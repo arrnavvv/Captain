@@ -42,8 +42,8 @@ public class PasswordGenerator {
         Generate generate = new Generate();
         System.out.println("Enter the length of the password you require: ");
         int lenOfPass = scanner.nextInt();
-        if(lenOfPass<6 || lenOfPass>32){
-            while(lenOfPass<6||lenOfPass>32) {
+        if(lenOfPass<8 || lenOfPass>32){
+            while(lenOfPass<8||lenOfPass>32) {
                 System.out.println("Please enter length greater than 6 and less than 32");
                 lenOfPass=scanner.nextInt();
             }
